@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import { isAbsolute } from "path"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,7 +26,10 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <div className="">
+          ASDF
+        </div>
+      <Header siteTitle="Alejandro Close Obregón"/>
       <div
         style={{
           margin: `0 auto`,
@@ -34,7 +38,8 @@ const Layout = ({ children }) => {
           paddingTop: 0,
         }}
       >
-        <main>{children}</main>
+        <main
+        >{children}</main>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}

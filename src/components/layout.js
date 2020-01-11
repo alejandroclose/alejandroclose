@@ -11,7 +11,6 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
-import { isAbsolute } from "path"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -29,8 +28,7 @@ const Layout = ({ children }) => {
       <div className="">
           ASDF
         </div>
-      <Header siteTitle="Alejandro Close Obregón"/>
-      {/* <div>asd</div> */}
+      <Header siteTitle=""/>
       <div
         style={{
           margin: `0 auto`,

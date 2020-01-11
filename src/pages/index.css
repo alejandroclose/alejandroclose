@@ -1,0 +1,20 @@
+.cv{
+  display: flex;
+  flex-direction:row;
+}
+
+.profile {
+  max-width: 300px;
+  margin-bottom: 1.45rem;
+  text-align: center;
+}
+
+.profile-pic {
+  width: 13rem;
+  margin: 0 auto;
+}
+
+img {
+  border: 2px solid #8db2c4;
+  border-radius: 30px;
+}

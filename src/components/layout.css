@@ -73,8 +73,7 @@ mark {
 
 header{
   width: 100vw;
-  height: 40vh;
-  background-color: blue;
+  height: 50vh;
   z-index: 1;
 }
 
@@ -82,7 +81,7 @@ main {
   padding: 1.5rem;
   display: block;
   position: relative;
-  top: -31vh;
+  top: -40vh;
   box-shadow: 0 3px 11px 0 rgba(0,0,0,0.2);
   z-index: 2;
   background-color: white;

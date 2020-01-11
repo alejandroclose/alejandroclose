@@ -14,8 +14,19 @@ const IndexPage = () => (
         <div className="profile-pic">
           <ProfilePic />
         </div>
-        <div>
-          asdf
+        <div className="personal-data">
+          <div className="cv-name">
+            <h1>ALEJANDRO CLOSE</h1>
+          </div>
+          <div className="contact">
+          <div>September 9, 1987</div>
+            <div><a href="tel:+34622826408">+(34) 622 826 408</a></div>
+            <div><a href="mailto: alejandroclose@gmail.com">alejandroclose (at) gmail.com</a></div>
+          </div>
+          <div className="social-media">
+          <div><a href="github.com/alejandroclose">/alejandroclose</a></div>
+          <div><a href="linkedin.com/in/alejandroclose">/in/alejandroclose</a></div>
+          </div>
         </div>
       </div>
       <div className="experience">

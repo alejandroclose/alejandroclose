@@ -1,20 +1,44 @@
-.cv{
+.cv {
   display: flex;
-  flex-direction:row;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .profile {
-  max-width: 300px;
-  margin-bottom: 1.45rem;
-  text-align: center;
+  width: 300px;
 }
 
 .profile-pic {
-  width: 13rem;
+  width: 11rem;
   margin: 0 auto;
 }
 
 img {
   border: 2px solid #8db2c4;
-  border-radius: 30px;
+  border-radius: 20px;
+  z-index: 1;
+}
+
+.personal-data {
+  border: 2px solid #8db2c4;
+  border-radius: 20px;
+  padding-top: 160px;
+  position: relative;
+  top: -9rem;
+}
+
+.contact {
+  border-top: 1px solid #8db2c4;
+  border-bottom: 1px solid #8db2c4;
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.social-media {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+
+.cv-name{
+  margin: 1rem 1rem 0 1rem;
 }

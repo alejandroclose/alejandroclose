@@ -2,6 +2,11 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.quote {
+  font-size: 1rem;
 }
 
 .profile {
@@ -19,12 +24,21 @@ img {
   z-index: 1;
 }
 
+a{
+  text-decoration: none;
+  color: #8db2c4;
+}
+
+a:hover {
+  color: black;
+}
+
 .personal-data {
   border: 2px solid #8db2c4;
   border-radius: 20px;
   padding-top: 160px;
   position: relative;
-  top: -9rem;
+  margin-top: -9rem;
 }
 
 .contact {
@@ -41,4 +55,9 @@ img {
 
 .cv-name{
   margin: 1rem 1rem 0 1rem;
+  text-align: center;
+}
+
+.experience {
+  width: 90%;
 }

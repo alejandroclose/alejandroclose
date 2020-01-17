@@ -1,0 +1,77 @@
+.title {
+  border: 2px solid #8db2c4;
+  border-radius: 20px;
+  text-align: center;
+  padding: 0.25rem;
+  margin-top: 1rem;
+}
+
+.content {
+  padding: 0.35rem;
+}
+
+ul {
+  margin: 0;
+}
+
+.content a{
+  text-decoration: none;
+  color: #8db2c4
+}
+
+.content a:hover{
+  color: black;
+}
+
+.content li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+.content li:before {
+  content: '✓ ';
+  margin-left: 0;
+  color: #8db2c4;
+}
+
+.content .card-content {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.content .card-content-sub {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0.5rem;
+}
+
+.content .date{
+  min-width: 4rem;
+  max-width: 4rem;
+  border-right: 2px solid #8db2c4;
+  padding-right: 0.5rem;
+}
+
+.content .date-sub{
+  padding-top: 1rem;
+  color: grey;
+}
+
+.content .details {
+  margin: 0 0.5rem;
+}
+
+.content .details-sub {
+  padding-top: 1rem;
+}
+
+.content .institution {
+  color: #8db2c4
+}
+
+.content .position-details {
+  color: grey;
+}

@@ -74,3 +74,69 @@ a:hover {
   border: none;
   border-radius: none;
 }
+
+ul {
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: #8db2c4
+}
+
+a:hover{
+  color: black;
+}
+
+li {
+  list-style: none;
+  position: relative;
+  display: inline-block;
+  margin: 0.2rem;
+}
+
+li:before {
+  content: '✓ ';
+  margin-left: 0;
+  color: #8db2c4;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem 0.5rem 0 0.5rem;
+}
+
+.card-content-sub {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0.5rem;
+}
+
+.date{
+  min-width: 4rem;
+  max-width: 4rem;
+  border-right: 2px solid #8db2c4;
+  padding-right: 0.5rem;
+}
+
+.date-sub{
+  padding-top: 1rem;
+  color: grey;
+}
+
+.details {
+  margin: 0 0.5rem;
+}
+
+.details-sub {
+  padding-top: 1rem;
+}
+
+.institution {
+  color: #8db2c4
+}
+
+.position-details {
+  color: grey;
+}

@@ -13,7 +13,7 @@ import twitter from "../images/twitter.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="CV" />
+    <SEO title="Alejandro Close" />
     <div className="cv">
       <div className="profile">
         <div className="profile-pic">
@@ -26,8 +26,7 @@ const IndexPage = () => (
           </div>
           <div className="contact">
             <div><b>Contact</b></div>
-            <div className="info-text"><a href="tel:+34622826408">+(34) 622 826 408</a></div>
-            <div className="info-text"><a href="mailto: alejandroclose@gmail.com">alejandroclose@gmail.com</a></div>
+            <div className="info-text"><a href="mailto: hola@alejandroclose.com">hola@alejandroclose.com</a></div>
           </div>
           <div className="social-media">
             <div><b>Profiles</b></div>

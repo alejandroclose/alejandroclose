@@ -30,9 +30,9 @@ const IndexPage = () => (
           </div>
           <div className="social-media">
             <div><b>Profiles</b></div>
-            <div className="info-text"><a href="linkedin.com/in/alejandroclose"><img className="icon" src={linkedin}/> /in/alejandroclose</a></div>
-            <div className="info-text"><a href="github.com/alejandroclose"><img className="icon" src={github}/> /alejandroclose</a></div>
-            <div className="info-text"><a href="twitter.com/alejandroclose"><img className="icon" src={twitter}/> /alejandroclose</a></div>
+            <div className="info-text"><a href="http://linkedin.com/in/alejandroclose"><img className="icon" src={linkedin}/> /in/alejandroclose</a></div>
+            <div className="info-text"><a href="http://github.com/alejandroclose"><img className="icon" src={github}/> /alejandroclose</a></div>
+            <div className="info-text"><a href="http://twitter.com/alejandroclose"><img className="icon" src={twitter}/> /alejandroclose</a></div>
           </div>
         </div>
         <Card title="languages">
@@ -85,7 +85,7 @@ const IndexPage = () => (
       <div className="experience">
       <Card title="technical skills">
           <ul>
-            <li><b>Front-end:</b> HTML, CSS >> SaaS, Javascript >> React >> Gatsby.</li>
+            <li><b>Front-end:</b> HTML, CSS, Javascript >> React >> Gatsby.</li>
             <li><b>Back-end:</b> Node, Express, REST API, GraphQL, AWS >> EC2, Route53, Relational and non-relational Databases >> SQL, Mongo.</li>
             <li><b>Data Analysis:</b> Python, Jupyter Notebooks, IBM Watson.</li>
           </ul>
@@ -142,10 +142,10 @@ const IndexPage = () => (
             <div className="date">2006 - Present</div>
             <div className="details">
               <div className="institution"><a href="http://www.lostragos.com/" target="_blank">losTRAGOS.com</a></div>
-              <div className="position-details">A tribute to the art of preparing cocktails.</div>
+              <div className="position-details">A tribute to the art of cocktails.</div>
               <div><b>Founder</b></div>
               <ul>
-                <li>1 Million pageviews per year -SEO only-.</li>
+                <li>1 Million organic pageviews per year.</li>
                 <li>Industry recognized brand with 10k+ followers on facebook and 1,7k+ on Instagram.</li>
               </ul>
             </div>

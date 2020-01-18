@@ -30,9 +30,9 @@ const IndexPage = () => (
           </div>
           <div className="social-media">
             <div><b>Profiles</b></div>
-            <div className="info-text"><a href="http://linkedin.com/in/alejandroclose"><img className="icon" src={linkedin}/> /in/alejandroclose</a></div>
-            <div className="info-text"><a href="http://github.com/alejandroclose"><img className="icon" src={github}/> /alejandroclose</a></div>
-            <div className="info-text"><a href="http://twitter.com/alejandroclose"><img className="icon" src={twitter}/> /alejandroclose</a></div>
+            <div className="info-text"><a href="http://linkedin.com/in/alejandroclose" target="_blank"><img className="icon" src={linkedin}/> /in/alejandroclose</a></div>
+            <div className="info-text"><a href="http://github.com/alejandroclose" target="_blank"><img className="icon" src={github}/> /alejandroclose</a></div>
+            <div className="info-text"><a href="http://twitter.com/alejandroclose" target="_blank"><img className="icon" src={twitter}/> /alejandroclose</a></div>
           </div>
         </div>
         <Card title="languages">

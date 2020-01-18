@@ -11,6 +11,7 @@ import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
 import "./layout.css"
+import gatsby from "../images/gatsby-icon.png"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,14 +26,11 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <div className="">
-          ASDF
-        </div>
       <Header siteTitle=""/>
       <div
         style={{
           margin: `0 auto`,
-          maxWidth: 960,
+          maxWidth: 1020,
           padding: `0px 1.0875rem 1.45rem`,
           paddingTop: 0,
         }}
@@ -40,9 +38,9 @@ const Layout = ({ children }) => {
         <main
         >{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()}, Designed in Barcelona by <a href="http://www.alejandraferrer.es" target="_blank">Alejandra Ferrer</a>. Built by Alejandro Close on
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <img className="icon"src={gatsby}/>.
         </footer>
       </div>
     </>

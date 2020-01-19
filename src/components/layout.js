@@ -38,7 +38,7 @@ const Layout = ({ children }) => {
         <main
         >{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Designed and Built in Barcelona by <a href="http://www.alejandraferrer.es" target="_blank">Alejandra Ferrer</a> and Alejandro Close. 
+          © {new Date().getFullYear()}, Built with ❤️ in Barcelona by Alejandro Close. Design by <a href="http://www.alejandraferrer.es" target="_blank">Alejandra Ferrer</a>. 
           {` `}
           <img className="gatsby-icon"src={gatsby}/>
         </footer>

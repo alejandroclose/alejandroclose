@@ -24,10 +24,10 @@ const IndexPage = () => (
             <h1>ALEJANDRO CLOSE</h1>
             <h2 className="quote">Starting things that happen.</h2>
           </div>
-          <div className="contact">
+          {/* <div className="contact">
             <div><b>Contact</b></div>
             <div className="info-text"><a href="mailto: hola@alejandroclose.com">hola@alejandroclose.com</a></div>
-          </div>
+          </div> */}
           <div className="social-media">
             <div><b>Profiles</b></div>
             <div className="info-text"><a href="http://linkedin.com/in/alejandroclose"><img className="icon" src={linkedin}/> /in/alejandroclose</a></div>

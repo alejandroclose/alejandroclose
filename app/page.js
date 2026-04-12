@@ -3,7 +3,13 @@ export default function Home() {
     <>
       {/* NAV */}
       <nav>
-        <a className="nav-logo" href="#">Alejandro Close</a>
+        <a className="nav-logo" href="#" aria-label="Alejandro Close">
+          <svg width="42" height="26" viewBox="0 0 42 26" fill="none" aria-hidden="true">
+            <path d="M1 24L8.5 2L16 24" stroke="#0e0d0b" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M4 16H13" stroke="#0e0d0b" strokeWidth="1.5" strokeLinecap="round"/>
+            <path d="M37.7 8A10 10 0 1 0 37.7 18" stroke="#c8853a" strokeWidth="1.5" strokeLinecap="round"/>
+          </svg>
+        </a>
         <ul className="nav-links">
           <li><a href="#proceso">Proceso</a></li>
           <li><a href="#sobre-mi">Sobre mí</a></li>

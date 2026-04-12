@@ -35,9 +35,9 @@ nav {
   border-bottom: 1px solid var(--rule);
 }
 .nav-logo {
-  font-family: var(--font-playfair, 'Playfair Display', serif);
-  font-weight: 700; font-size: 1rem; letter-spacing: .03em;
-  text-decoration: none; color: var(--ink);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
 }
 .nav-links { display: flex; gap: 2.2rem; list-style: none; }
 .nav-links a {

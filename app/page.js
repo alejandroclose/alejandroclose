@@ -26,11 +26,11 @@ export default function Home() {
           <p className="hero-desc">
             Muchos CEOs saben que quieren automatizar, pero no tienen claro qué ni cómo.{' '}
             <strong>Ese diagnóstico también es parte de lo que hago.</strong> Identificamos juntos
-            qué procesos tienen más impacto — con código o sin él — y lo pongo a funcionar.
+            qué procesos tienen más impacto, con código o sin él, y lo pongo a funcionar.
           </p>
           <div className="hero-actions">
             <a className="btn-primary" href="https://cal.com/alejandroclose/30min?layout=mobile&overlayCalendar=true" target="_blank" rel="noopener noreferrer">
-              Agenda una llamada gratuita
+              Agenda una llamada sin coste
               <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
                 <path
                   d="M3 8h10M9 4l4 4-4 4"
@@ -43,14 +43,14 @@ export default function Home() {
             </a>
             <a className="btn-text" href="#sobre-mi">¿Quién soy? →</a>
           </div>
-          <p className="hero-note">30 minutos · Sin compromiso · Gratuito</p>
+          <p className="hero-note">30 minutos · Sin compromiso · Sin coste</p>
         </div>
 
         <div className="hero-right">
-          <p className="panel-label">Trayectoria · Holaluz, Barcelona</p>
+          <p className="panel-label">Trayectoria · Barcelona</p>
           <div className="stats">
             <div className="stat">
-              <div className="stat-num">12</div>
+              <div className="stat-num">13</div>
               <p className="stat-label">años construyendo equipos y operaciones desde cero</p>
             </div>
             <div className="stat">
@@ -76,13 +76,11 @@ export default function Home() {
           <span>Diagnóstico sin tecnicismos</span>
           <span>Implementación con y sin código</span>
           <span>CRM y herramientas de ventas</span>
-          <span>Sin equipo de ingeniería</span>
           <span>Integraciones a medida</span>
           <span>Automatización de procesos</span>
           <span>Diagnóstico sin tecnicismos</span>
           <span>Implementación con y sin código</span>
           <span>CRM y herramientas de ventas</span>
-          <span>Sin equipo de ingeniería</span>
           <span>Integraciones a medida</span>
         </div>
       </div>
@@ -104,7 +102,7 @@ export default function Home() {
               equivocado también paraliza.
             </p>
             <p>
-              Trabajo en los dos momentos — antes y después — para que nada se quede a medias.
+              Trabajo en los dos momentos, antes y después, para que nada se quede a medias.
             </p>
             <ul className="blockers">
               <li>
@@ -146,25 +144,25 @@ export default function Home() {
         </div>
         <div className="steps-grid">
           <div className="step">
-            <span className="step-n">— 01</span>
+            <span className="step-n">01</span>
             <h3>Diagnóstico</h3>
             <p>
               En una sesión de 30–60 minutos mapeamos los procesos con mayor potencial de
-              automatización en tu empresa. Sin código, sin tecnicismos — solo negocio.
+              automatización en tu empresa. Sin código, sin tecnicismos, solo negocio.
             </p>
-            <span className="step-badge">30–60 min · Gratuito</span>
+            <span className="step-badge">30–60 min · Sin coste</span>
           </div>
           <div className="step">
-            <span className="step-n">— 02</span>
+            <span className="step-n">02</span>
             <h3>Prototipo rápido</h3>
             <p>
               En 1–2 semanas construyo una primera versión funcional. Uso las herramientas que mejor
-              encajen — Make, n8n, Claude API o código a medida — sin atarte a ninguna plataforma.
+              encajen (Make, n8n, Claude API o código a medida) sin atarte a ninguna plataforma.
             </p>
             <span className="step-badge">1–2 semanas</span>
           </div>
           <div className="step">
-            <span className="step-n">— 03</span>
+            <span className="step-n">03</span>
             <h3>Entrega y traspaso</h3>
             <p>
               Refinamos hasta que funciona en producción. Formo a tu equipo para que lo gestione, o
@@ -183,7 +181,7 @@ export default function Home() {
             Ingeniero que habla<br />de negocio. Operador<br />que sabe <em>construir.</em>
           </h2>
           <p>
-            Llevo más de 12 años en Holaluz, la empresa de energía verde líder en España, donde he
+            Llevo más de 13 años en Holaluz, la green tech líder en España, donde he
             construido desde cero equipos de ventas, herramientas de CRM, sistemas de facturación y
             proyectos de I+D en carga inteligente de vehículos eléctricos.
           </p>
@@ -192,7 +190,7 @@ export default function Home() {
             <strong>
               He vivido exactamente los mismos problemas operativos que tienes ahora
             </strong>{' '}
-            — procesos manuales, equipos pequeños, presión para hacer más con menos.
+            procesos manuales, equipos pequeños, presión para hacer más con menos.
           </p>
           <p>
             Lo que me diferencia: puedo hablar de negocio con el CEO el lunes y deployar la

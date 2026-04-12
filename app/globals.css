@@ -406,4 +406,14 @@ h1           { animation: up .5s .07s ease both; }
   .about { grid-template-columns: 1fr; gap: 3rem; }
   .cta-actions { flex-direction: column; }
   nav .nav-links { display: none; }
+
+  /* Legibilidad móvil */
+  .hero-desc  { font-size: 1.05rem; }
+  .problem-right p { font-size: 1rem; }
+  .bl-t       { font-size: 0.95rem; }
+  .step p     { font-size: 0.95rem; }
+  .about-left p { font-size: 0.97rem; }
+  .cred-val   { font-size: 0.95rem; }
+  .stat-label { font-size: 0.88rem; }
+  .section-header p { font-size: 0.95rem; }
 }

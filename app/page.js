@@ -9,7 +9,7 @@ export default function Home() {
           <li><a href="#sobre-mi">Sobre mí</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
-        <a className="nav-cta" href="mailto:alejandroclose@gmail.com">Hablemos</a>
+        <a className="nav-cta" href="mailto:hola@alejandroclose.com">Hablemos</a>
       </nav>
 
       {/* HERO */}
@@ -23,7 +23,7 @@ export default function Home() {
             qué procesos tienen más impacto — con código o sin él — y lo pongo a funcionar.
           </p>
           <div className="hero-actions">
-            <a className="btn-primary" href="mailto:alejandroclose@gmail.com">
+            <a className="btn-primary" href="mailto:hola@alejandroclose.com">
               Agenda una llamada gratuita
               <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
                 <path
@@ -234,7 +234,7 @@ export default function Home() {
           Sin venta, sin presión.
         </p>
         <div className="cta-actions">
-          <a className="btn-primary" href="mailto:alejandroclose@gmail.com">
+          <a className="btn-primary" href="mailto:hola@alejandroclose.com">
             Escríbeme un email
             <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
               <path
@@ -255,14 +255,14 @@ export default function Home() {
             Ver LinkedIn →
           </a>
         </div>
-        <p className="cta-note">alejandroclose@gmail.com · linkedin.com/in/alejandroclose</p>
+        <p className="cta-note">hola@alejandroclose.com · linkedin.com/in/alejandroclose</p>
       </section>
 
       {/* FOOTER */}
       <footer>
         <p>© 2026 Alejandro Close · Barcelona</p>
         <div className="ft-links">
-          <a href="mailto:alejandroclose@gmail.com">Email</a>
+          <a href="mailto:hola@alejandroclose.com">Email</a>
           <a
             href="https://linkedin.com/in/alejandroclose"
             target="_blank"

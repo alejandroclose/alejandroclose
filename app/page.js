@@ -9,7 +9,7 @@ export default function Home() {
           <li><a href="#sobre-mi">Sobre mí</a></li>
           <li><a href="#contacto">Contacto</a></li>
         </ul>
-        <a className="nav-cta" href="mailto:hola@alejandroclose.com">Hablemos</a>
+        <a className="nav-cta" href="https://cal.com/alejandroclose/30min?layout=mobile&overlayCalendar=true" target="_blank" rel="noopener noreferrer">Hablemos</a>
       </nav>
 
       {/* HERO */}
@@ -23,7 +23,7 @@ export default function Home() {
             qué procesos tienen más impacto — con código o sin él — y lo pongo a funcionar.
           </p>
           <div className="hero-actions">
-            <a className="btn-primary" href="mailto:hola@alejandroclose.com">
+            <a className="btn-primary" href="https://cal.com/alejandroclose/30min?layout=mobile&overlayCalendar=true" target="_blank" rel="noopener noreferrer">
               Agenda una llamada gratuita
               <svg width="13" height="13" viewBox="0 0 16 16" fill="none">
                 <path

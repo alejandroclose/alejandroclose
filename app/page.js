@@ -24,7 +24,7 @@ export default function Home() {
           <p className="eyebrow">Implementación de IA</p>
           <h1>Haz más sin aumentar equipo.</h1>
           <p className="hero-desc">
-            La IA puede transformar cómo trabaja tu empresa. Yo me encargo de que pase, desde identificar qué automatizar hasta los resultados.
+            La IA puede transformar cómo trabaja tu empresa. Yo me encargo de que pase.
           </p>
           <div className="hero-actions">
             <a className="btn-primary" href="https://cal.com/alejandroclose/30min?layout=mobile&overlayCalendar=true" target="_blank" rel="noopener noreferrer">

@@ -190,7 +190,15 @@ h1 em { font-style: italic; font-weight: 400; color: var(--amber); }
 .ticker {
   background: var(--amber);
   overflow: hidden; white-space: nowrap; padding: .85rem 0;
+  position: relative;
 }
+.ticker::before,
+.ticker::after {
+  content: '';
+  position: absolute; top: 0; bottom: 0; width: 5rem; z-index: 1; pointer-events: none;
+}
+.ticker::before { left: 0; background: linear-gradient(to right, var(--amber), transparent); }
+.ticker::after  { right: 0; background: linear-gradient(to left, var(--amber), transparent); }
 .ticker-track {
   display: inline-block;
   animation: tick 24s linear infinite;

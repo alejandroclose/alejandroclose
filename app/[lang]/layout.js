@@ -1,14 +1,18 @@
-import './globals.css'
+import '../globals.css'
+import { getTranslations } from '../translations'
 
-export const metadata = {
-  title: 'Alejandro Close — Implementación de IA',
-  description:
-    'Implementación de IA para empresas. Diagnóstico, automatización y desarrollo a medida. Barcelona.',
+export async function generateMetadata({ params }) {
+  const t = getTranslations(params.lang)
+  return { title: t.meta.title, description: t.meta.description }
 }
 
-export default function RootLayout({ children }) {
+export function generateStaticParams() {
+  return [{ lang: 'es' }, { lang: 'ca' }, { lang: 'en' }]
+}
+
+export default function LangLayout({ children, params }) {
   return (
-    <html lang="es">
+    <html lang={params.lang}>
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />

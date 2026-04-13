@@ -47,7 +47,7 @@ export default function Home() {
         </div>
 
         <div className="hero-right">
-          <p className="panel-label">Trayectoria · Barcelona</p>
+          <p className="panel-label">Trayectoria</p>
           <div className="stats">
             <div className="stat">
               <div className="stat-num">13</div>

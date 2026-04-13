@@ -21,7 +21,7 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <div className="hero-left">
-          <p className="eyebrow">Implementación de IA · Barcelona</p>
+          <p className="eyebrow">Implementación de IA</p>
           <h1>Haz más sin aumentar equipo.</h1>
           <p className="hero-desc">
             La IA puede transformar cómo trabaja tu empresa. Yo me encargo de que pase, desde identificar qué automatizar hasta los resultados.

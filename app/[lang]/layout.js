@@ -1,4 +1,5 @@
 import '../globals.css'
+import { GoogleAnalytics } from '@next/third-parties/google'
 import { getTranslations } from '../translations'
 
 export async function generateMetadata({ params }) {
@@ -21,7 +22,11 @@ export default function LangLayout({ children, params }) {
           rel="stylesheet"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        {children}
+        <GoogleAnalytics gaId="G-L3QRQMRZ9E" />
+      </body>
     </html>
   )
 }
+

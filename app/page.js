@@ -22,7 +22,7 @@ export default function Home() {
       <section className="hero">
         <div className="hero-left">
           <p className="eyebrow">Implementación de IA · Barcelona</p>
-          <h1>Lo que la IA recomienda,<br />yo lo <em>construyo.</em></h1>
+          <h1>Haz más sin aumentar equipo.</h1>
           <p className="hero-desc">
             Muchos CEOs saben que quieren automatizar, pero no tienen claro qué ni cómo.{' '}
             <strong>Ese diagnóstico también es parte de lo que hago.</strong> Identificamos juntos

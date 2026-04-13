@@ -205,7 +205,7 @@ h1 em { font-style: italic; font-weight: 400; color: var(--amber); }
 }
 .ticker-track span {
   display: inline-block;
-  font-size: .7rem; letter-spacing: .18em; text-transform: uppercase;
+  font-size: .88rem; letter-spacing: .18em; text-transform: uppercase;
   color: var(--paper); padding: 0 2.5rem;
 }
 .ticker-track span::after { content: '·'; margin-left: 2.5rem; opacity: .5; }

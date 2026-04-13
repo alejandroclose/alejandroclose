@@ -48,7 +48,7 @@ export const translations = {
       h2: ['Ingeniero que habla', 'de negocio. Operador', 'que sabe ', 'construir.'],
       p1: 'Llevo más de 13 años en Holaluz, la green tech líder en España, donde he construido desde cero equipos de ventas, herramientas de CRM, sistemas de facturación y proyectos de I+D en carga inteligente de vehículos eléctricos.',
       p2a: 'No soy un consultor que habla de IA desde fuera.',
-      p2b: 'He vivido exactamente los mismos problemas operativos que tienes ahora',
+      p2b: 'He vivido exactamente los mismos problemas operativos que tienes ahora:',
       p2c: 'procesos manuales, equipos pequeños, presión para hacer más con menos.',
       p3: 'Lo que me diferencia: puedo hablar de negocio con el CEO el lunes y deployar la automatización el viernes.',
       creds: [
@@ -118,7 +118,7 @@ export const translations = {
       h2: ['Enginyer que parla', 'de negoci. Operador', 'que sap ', 'construir.'],
       p1: "Porto més de 13 anys a Holaluz, la green tech líder a Espanya, on he construït des de zero equips de vendes, eines de CRM, sistemes de facturació i projectes de R+D en càrrega intel·ligent de vehicles elèctrics.",
       p2a: "No sóc un consultor que parla d'IA des de fora.",
-      p2b: 'He viscut exactament els mateixos problemes operatius que tens ara',
+      p2b: 'He viscut exactament els mateixos problemes operatius que tens ara:',
       p2c: 'processos manuals, equips petits, pressió per fer més amb menys.',
       p3: "El que em diferencia: puc parlar de negoci amb el CEO el dilluns i desplegar l'automatització el divendres.",
       creds: [
@@ -188,7 +188,7 @@ export const translations = {
       h2: ['Engineer who speaks', 'business. Operator', 'who knows how to ', 'build.'],
       p1: "I have spent over 13 years at Holaluz, Spain's leading green tech company, where I built from scratch sales teams, CRM tools, billing systems and R&D projects in smart EV charging.",
       p2a: "I'm not a consultant who talks about AI from the outside.",
-      p2b: "I've lived through exactly the same operational problems you have now",
+      p2b: "I've lived through exactly the same operational problems you have now:",
       p2c: 'manual processes, small teams, pressure to do more with less.',
       p3: 'What sets me apart: I can talk business with the CEO on Monday and deploy the automation on Friday.',
       creds: [

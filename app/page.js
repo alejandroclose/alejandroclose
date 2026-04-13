@@ -24,9 +24,7 @@ export default function Home() {
           <p className="eyebrow">Implementación de IA · Barcelona</p>
           <h1>Haz más sin aumentar equipo.</h1>
           <p className="hero-desc">
-            Muchos CEOs saben que quieren automatizar, pero no tienen claro qué ni cómo.{' '}
-            <strong>Ese diagnóstico también es parte de lo que hago.</strong> Identificamos juntos
-            qué procesos tienen más impacto, con código o sin él, y lo pongo a funcionar.
+            La IA puede transformar cómo trabaja tu empresa. Yo me encargo de que pase, desde identificar qué automatizar hasta los resultados.
           </p>
           <div className="hero-actions">
             <a className="btn-primary" href="https://cal.com/alejandroclose/30min?layout=mobile&overlayCalendar=true" target="_blank" rel="noopener noreferrer">

@@ -14,7 +14,10 @@
   --font-dm-sans: 'DM Sans', sans-serif;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  font-size: 18px;
+}
 
 body {
   background: var(--paper);
